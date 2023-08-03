@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+#banner{
+	width: 100%
+}
+
+#slider1 .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slider1 .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+
+#slider1 .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slider1 .owl-nav [class*='owl-'] {
+	font-size:100px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slider1 .owl-nav .owl-next{ position:absolute; right:5%;}
+#slider1 .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slider1 .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color: darkred;
+      text-decoration: none; }
+
+#product{
+	width: 100%;min-height: 700px;background-image: url("../images/bg2.png");background-repeat: no-repeat;background-position: center center;background-size: cover;padding-top: 80px
+}
+.pt-30{
+	padding-top: 30px
+}
+.gach-chan{
+	border-bottom: 2px solid darkred;
+}
+.vien{
+	width: 100%;border: 1px solid white; text-align: center;padding: 10px
+}
+.vien h4{
+	color: darkred; font-size: 18px
+}
+.vien a{
+	text-decoration: none;color: darkred
+}
+.vien a:hover{
+	color: aliceblue;
+}
+.vien:hover{
+	box-shadow: 5px 5px 10px gray
+}
+#contact{
+	width: 100%;min-height: 600px;background-image: url("../images/Shop-Banner2.png");background-repeat: no-repeat;background-size: cover;background-position: center center;padding-top: 50px
+}
+.shadow{
+	width: 100%;min-height: 300px;padding: 30px;box-shadow: 5px 5px 5px lightgray;border: 1px solid lightgray;
+}
+.text-red{
+	color: darkred
+}
+header{
+	height: 80px;width: 100%;line-height: 80px
+}
+.logo{
+	width: 150px;height: auto;padding-top: 15px
+}
+.menu ul{
+	margin: 0;padding: 0;list-style: none;display: flex;
+}
+.menu ul li a{
+	text-decoration: none;padding: 5px 20px;text-transform: uppercase;color:black;display: block;
+}
+.menu ul li a:hover{
+	color: darkred;font-weight: bold;border-radius: 30px
+}
+#arrival .sp{
+    position: relative;overflow: hidden
+}
+#arrival .icon{
+    position: absolute;width: 70%;height: 45px;left: 15%;top: 110%;display: flex;justify-content: space-around;transition: all 0.8s
+}
+#arrival .icon a{
+    width: 45px;height: 45px;background-color: darkgray;border-radius: 50%;display: flex;justify-content: center;align-items: center;text-decoration: none;color: darkred;
+}
+#arrival .icon a:hover{
+    background-color: darkred;color: aliceblue
+}
+#arrival .sp:hover .icon{
+    top: 40%;
+}
+.icon ul{
+	margin: 0;padding: 0;list-style: none;display: flex;
+}
+.icon ul li a{
+	text-decoration: none;padding: 5px 5px;text-transform: uppercase;display: block;
+}
+.vien-do{
+	width: 100%;border: 1px solid darkred; text-align: center;padding: 10px
+}
+.text-do{
+	color: darkred
+}
